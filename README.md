@@ -57,7 +57,7 @@ Um sistema simples de atendimento com inteligência artificial para pizzarias, c
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/Sams23/saras-pizzaria.git
+git clone [https://github.com/Sams23/saras-pizzaria.git]
 cd SarasPizzaria
 ```
 
