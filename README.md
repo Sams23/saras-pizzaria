@@ -66,5 +66,5 @@ cd SarasPizzaria
 ## ✨ Autor(a)
 
 Sara Mendonça  
-Contato: saramendonca@gmail.com
+Contato: sm.saramendonca@gmail.com
 LinkedIn: [linkedin.com/in/saramendonca](https://linkedin.com/in/saramendonca)
