@@ -8,10 +8,12 @@ Simula um atendente virtual capaz de conduzir um pedido de forma guiada e natura
 ## 📂 Estrutura do Projeto
 
 SarasPizzaria/
+
 ├── saras-pizzabot-backend/
 │   ├── src/
 │   ├── pizzabot.sqlite
 │   └── package.json
+
 ├── saras-pizzabot-frontend/
 │   ├── src/
 │   └── package.json
