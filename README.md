@@ -8,8 +8,6 @@ Um sistema simples de atendimento com inteligência artificial para pizzarias, c
 
 ---
 
-## ✅ Funcionalidades
-
 ### 🔹 Backend
 
 - API REST com:
