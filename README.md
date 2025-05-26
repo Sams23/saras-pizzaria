@@ -1,12 +1,26 @@
 # Sara's Pizzaria 🍕
 
-Um sistema simples de atendimento com inteligência artificial para pizzarias, construído com Node.js, React e SQLite.
+Um sistema de atendimento com inteligência artificial para pizzarias, desenvolvido com React, Node.js e SQLite.  
+Simula um atendente virtual capaz de conduzir um pedido de forma guiada e natural.
 
 ---
 
 ## 📂 Estrutura do Projeto
 
+SarasPizzaria/
+├── saras-pizzabot-backend/
+│   ├── src/
+│   ├── pizzabot.sqlite
+│   └── package.json
+├── saras-pizzabot-frontend/
+│   ├── src/
+│   └── package.json
+├── README.md
+└── .gitignore
+
 ---
+
+## ✅ Funcionalidades
 
 ### 🔹 Backend
 
@@ -47,8 +61,8 @@ Um sistema simples de atendimento com inteligência artificial para pizzarias, c
 
 ### Pré-requisitos:
 
-- Node.js instalado (v18+)
-- npm
+- [Node.js](https://nodejs.org/)  (versão 18 ou superior)
+- npm (gerenciador de pacotes que vem com o Node)
 
 ---
 
@@ -58,6 +72,39 @@ Um sistema simples de atendimento com inteligência artificial para pizzarias, c
 git clone [https://github.com/Sams23/saras-pizzaria.git]
 cd SarasPizzaria
 ```
+  📌 O backend será iniciado em http://localhost:3001
+  🧠 O banco de dados (pizzabot.sqlite) será criado automaticamente após o primeiro uso, na pasta saras-pizzabot-backend/.
+  ⚠️ Se receber erro relacionado ao ts-node-dev, instale globalmente com:
+  
+    npm install -g ts-node-dev
+
+### 2. Instale e execute o backend
+
+```bash
+cd saras-pizzabot-backend
+npm install
+npm run dev
+```
+  📌 O frontend será iniciado em http://localhost:3000
+
+### 3. Instale e execute o frontend
+
+```bash
+cd saras-pizzabot-frontend
+npm install
+npm start
+```
+
+🌐 Acesse:
+http://localhost:3000
+
+---
+
+##  🛠 Tecnologias utilizadas
+
+🔹 Frontend: React, TypeScript, Axios
+🔹 Backend: Node.js, Express, TypeORM, SQLite
+🔹 Extras: REST Client, lógica de IA simples com persistência
 
 ---
 
